@@ -19,16 +19,16 @@ After you push this repo to GitHub, you can use the **raw JSON** as an API.
 
 ### Get all commands
 
-**Raw URL (replace `USER` and `REPO` with your GitHub username and repo name):**
+**Raw URL:**
 
 ```
-https://raw.githubusercontent.com/USER/REPO/main/commands.json
+https://raw.githubusercontent.com/codewithtamim/commands-db/main/commands.json
 ```
 
 Example with `fetch` (browser or Node):
 
 ```js
-const res = await fetch('https://raw.githubusercontent.com/USER/REPO/main/commands.json');
+const res = await fetch('https://raw.githubusercontent.com/codewithtamim/commands-db/main/commands.json');
 const data = await res.json();
 console.log(data.commands); // array of 100 commands
 ```
