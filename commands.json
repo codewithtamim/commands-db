@@ -64,7 +64,7 @@
     { "id": 62, "command": "wc -l", "desc": "Count lines in file", "os": "mac,linux" },
     { "id": 63, "command": "sort", "desc": "Sort lines", "os": "win,mac,linux" },
     { "id": 64, "command": "uniq", "desc": "Remove duplicate lines", "os": "mac,linux" },
-    { "id": 65, "command": "cut -d',' -f1", "desc": "Extract column from delimited text", "os": "mac,linux" },
+    { "id": 65, "command": "cut -d ',' -f1", "desc": "Extract column from delimited text", "os": "mac,linux" },
     { "id": 66, "command": "sed -i 's/old/new/g'", "desc": "Find and replace in file", "os": "mac,linux" },
     { "id": 67, "command": "awk", "desc": "Pattern scanning and processing", "os": "mac,linux" },
     { "id": 68, "command": "xargs", "desc": "Build and run commands from stdin", "os": "mac,linux" },
